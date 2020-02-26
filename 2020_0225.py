@@ -93,7 +93,6 @@ class Monster:
 
 
 monster = Monster("アアア", 12)
-# monster.name = "クイバタ"
 # monster.luck = 99
 monster.display()
 # In[]:
