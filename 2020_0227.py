@@ -463,3 +463,36 @@ def add(name):  # 修飾される関数
 add('Alice')
 
 # In[]:
+
+
+class Test:
+    num = 10
+
+    def b(self):  # メソッド
+        self.c('Hello')
+
+    def c(self, msg):
+        print("{0}".format(msg))
+        print(("{0}".format(self.num)))
+
+
+test = Test()  # オブジェクトの生成
+test.b()
+# In[]:
+
+
+class Test:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def print_test(self):
+        sum_t = self.a + self.b
+        print("{0}".format(sum_t))
+
+
+# In[]:
+
+# In[]:
+
+# In[]:
